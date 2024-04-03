@@ -7,7 +7,7 @@ Hello, world!
 ### People
 
 {% for person in site.data.people %}
-  - {{ person | inspect }} 
+  - {{ person.name_display }} 
 
 {% endfor %}
 
